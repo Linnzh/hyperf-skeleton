@@ -5,11 +5,9 @@
         "php",
         "swoole",
         "framework",
-        "hyperf",
-        "microservice",
-        "middleware"
+        "hyperf"
     ],
-    "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
+    "description": "一个具备常用配置的 Hyperf 携程项目模板.",
     "license": "MIT",
     "require": {
         "php": ">=8.0",
