@@ -12,4 +12,4 @@ vendor/
 .phpunit*
 *.cache
 .vscode/
-composer.lock
+*.lock
