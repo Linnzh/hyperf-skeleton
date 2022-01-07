@@ -59,7 +59,7 @@ class AppExceptionHandler extends ExceptionHandler
         $standardResponseContent = new \Hrb981027\TreasureBag\Lib\ResponseContent\StandardResponseContent();
 
         $standardResponseContent
-            ->setCode((int)$throwable->getCode())
+            ->setCode((int) $throwable->getCode())
             ->setMessage(sprintf('%s[%s] in %s', $throwable->getMessage(), $throwable->getLine(), $throwable->getFile()));
 
         return $response
