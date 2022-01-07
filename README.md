@@ -7,7 +7,7 @@
 - 本项目已忽略`composer.lock`文件
 - 官方热启动命令：`php bin/hyperf.php server:watch`
 - 使用了 Monolog 日志系统，日志目录：`runtime/logs`
-- 更新日志使用了`conventional-changelog-cli`自动生成
+- 更新日志使用了`conventional-changelog-cli`自动生成，命令：`conventional-changelog -p angular -i CHANGELOG.md -s` 或者 `npm run changelog`
 
 ### 参考
 

@@ -1,0 +1,23 @@
+{
+    "name": "hyperf-skeleton",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Linnzh/hyperf-skeleton.git"
+    },
+    "author": "Linnzh",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Linnzh/hyperf-skeleton/issues"
+    },
+    "homepage": "https://github.com/Linnzh/hyperf-skeleton#readme"
+}
